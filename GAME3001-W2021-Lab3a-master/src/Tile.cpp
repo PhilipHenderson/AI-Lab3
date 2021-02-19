@@ -2,9 +2,11 @@
 
 #include "Config.h"
 #include "Util.h"
+#include "TextureManager.h"
 
 Tile::Tile()
 {
+
 	setWidth(Config::TILE_SIZE);
 	setHeight(Config::TILE_SIZE);
 }
